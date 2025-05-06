@@ -1,11 +1,18 @@
-# anilist_ntfy
-Simple python script to read [Anilist.co]([url](https://anilist.co/)) notifications and push them to own [ntfy]([url](https://github.com/binwiederhier/ntfy)) instance.
+<div align="center">
+  <h1>anilist_ntfy</h1>
+  <p>Simple python script to grab <a href=https://anilist.co/>Anilist.co</a> "episode aired" notifications and push them to own <a href="https://github.com/binwiederhier/ntfy">ntfy</a> instance.</p>
+  <img src="./img/screenshots.png" alt="android device notifications screenshot" width="600" height="auto">
+  <br>
+  <br>
+  <p><b>Note:</b> banner images are grabbed from Anilist too (when possible). They also show up in smaller notifications.</p>
+</div>
 
 ## Prerequisites
 - you must have an Anilist account
 - you must have a Ntfy instance to use - I have setup a local one using docker
 - a topic in ntfy
-- the ntfy app on your phone, if you wish
+- the ntfy app on your phone is highly recommended
+- KDE Connect integration is also highly recommended
 
 ## Installation
 You may simply download the `anilist_ntfy.py` script somewhere in your path such as `$HOME/.local/bin/`:
